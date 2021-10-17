@@ -1,0 +1,60 @@
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 500;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#footer-navbar-2 {
+    background-color: #e2e3e5;
+}
+
+#footer-navbar-2 .nav-link a {
+    color: #41464b;
+}
+
+/* #content {
+    margin-bottom: 115px;
+}
+ */
+
+
+
+/* 
+ *  Custom Scrollbar
+ */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    /* border-radius: 10px; */
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
