@@ -4,6 +4,18 @@
  * 
  */
 
+$http_host                      = $_SERVER['HTTP_HOST'];
+$protocol                       = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == 'on') ? 'https://' : 'http://';
+$base_url                       = $protocol . $http_host;
+$base_path                      = $_SERVER['DOCUMENT_ROOT'];
+
+switch ($http_host) {
+    case 'msu.rk311y.com':
+        $base_url   = $protocol . $http_host . '/csci331/lamp/';
+        $base_path  = '/home2/highaech/msu.rk311y.com/csci331/lamp';
+        break;
+}
+
 
 /*
  * --------------------------------------------------------------------

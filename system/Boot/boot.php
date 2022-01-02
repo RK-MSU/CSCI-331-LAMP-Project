@@ -11,7 +11,6 @@ if (session_id() == '' || ! isset($_SESSION) || session_status() === PHP_SESSION
 
 require_once SYSPATH . 'Config/constants.php';
 require_once SYSPATH . 'Config/config.php';
-
 require_once __DIR__ . '/boot.common.php';
 
 use Lamp\Core;

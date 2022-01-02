@@ -1,7 +1,6 @@
 <?php
 
-define('BASEPATH', $_SERVER['DOCUMENT_ROOT'] . '/');
-
+define('BASEPATH', rtrim($base_path, '/') . '/');
 define('REQ', $_SERVER['REQUEST_METHOD']);
 define('BR', '<br>');
 define('AMP', '&amp;');
